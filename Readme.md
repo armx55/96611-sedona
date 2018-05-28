@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Арменак Маргарян](https://up.htmlacademy.ru/htmlcss/21/user/96611).
-* Наставник: `Неизвестно`.
+* Наставник: [Галина Борисова] (https://htmlacademy.ru/profile/galina_borisova)
 
 ---
 
