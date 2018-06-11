@@ -1,0 +1,75 @@
+body {
+	margin:0;
+	padding: 0;
+	font-family: "PT Sans", "Arial", sans-serif;
+	font-size:14px;
+	text-transform: uppercase;
+	line-height: 21px;
+	color: #333333;
+	background-color:#f2f2f2;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+.main-menu .nav-item {
+	font-weight: bold;
+	text-decoration: none;
+	color:#000;
+}
+
+.main-introduction {
+	text-align: center;
+}
+
+.main-introduction  .introduction-title {
+	font-weight: bold;
+	font-size: 21px;
+}
+
+.descripton h3 {
+	font-size: 21px;
+	font-weight: bold;
+}
+
+.descripton {
+	background-color: #81b3d2;
+	color:#fff;
+}
+
+.features .features-title {
+	font-size: 21px;
+	font-weight: bold;
+}
+
+.features {
+	background: #eee;
+}
+
+.offer h2 {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.offer h3 {
+	font-size: 21px;
+	font-weight: bold;
+	background: #766357;
+	color:#fff;
+}
