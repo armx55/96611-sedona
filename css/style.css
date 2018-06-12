@@ -33,10 +33,6 @@ li {
 	background-repeat: no-repeat;
 }
 
-.main-menu .nav-active {
-	color:#766357;
-	font-weight: bold;
-}
 
 .nav-item:hover {
 	color:#81b3d2;
@@ -49,7 +45,8 @@ li {
 }
 
 .nav-active {
-
+  color:#766357;
+  font-weight: bold;
 }
 
 .main-introduction {
