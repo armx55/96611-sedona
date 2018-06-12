@@ -28,10 +28,28 @@ li {
 	list-style: none;
 }
 
-.main-menu .nav-item {
+.main-content {
+	background-image: url(../img/background-rock.jpg);
+	background-repeat: no-repeat;
+}
+
+.main-menu .nav-active {
+	color:#766357;
+	font-weight: bold;
+}
+
+.nav-item:hover {
+	color:#81b3d2;
+}
+
+.nav-item {
 	font-weight: bold;
 	text-decoration: none;
 	color:#000;
+}
+
+.nav-active {
+
 }
 
 .main-introduction {
@@ -62,14 +80,48 @@ li {
 	background: #eee;
 }
 
-.offer h2 {
+.offer .offer-title {
 	font-size: 32px;
 	font-weight: bold;
 }
 
-.offer h3 {
+.offer .offer.search {
 	font-size: 21px;
 	font-weight: bold;
 	background: #766357;
 	color:#fff;
+}
+
+.footer-hashtag {
+	font-size: 21px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/*Страница каталога*/
+
+.choose-checkbox {
+  background-image: url(../img/filter-background.jpg);
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.form-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.search-title {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.search-classification,
+.search-list {
+  font-size: 12px;
+}
+
+.hotel-name {
+  font-size: 21px;
+  font-weight: bold;
 }
