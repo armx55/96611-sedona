@@ -24,10 +24,6 @@ a {
 	text-decoration: none;
 }
 
-li {
-	list-style: none;
-}
-
 .main-content {
 	background-image: url(../img/background-rock.jpg);
 	background-repeat: no-repeat;
@@ -36,6 +32,10 @@ li {
 
 .nav-item:hover {
 	color:#81b3d2;
+}
+
+.nav-list li {
+  list-style: none;
 }
 
 .nav-item {
@@ -71,6 +71,10 @@ li {
 .features-title {
 	font-size: 21px;
 	font-weight: bold;
+}
+
+.features-items {
+  list-style: none;
 }
 
 .features {
@@ -113,12 +117,44 @@ li {
   font-weight: bold;
 }
 
+.search-item {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.search-аctive {
+  color:#81b3d2;
+}
+
+.search-list li {
+  list-style: none;
+}
+
 .search-classification,
 .search-list {
   font-size: 12px;
 }
 
+.arrows-list li {
+  list-style: none;
+}
+
+.hotel-content {
+  list-style: none;
+}
+
+.motel-content {
+  list-style: none;
+}
+
+.villa-content {
+  list-style: none;
+}
+
 .hotel-name {
   font-size: 21px;
   font-weight: bold;
+}
+
+.social-list {
+  list-style: none;
 }
