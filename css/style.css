@@ -56,7 +56,7 @@ li {
 	text-align: center;
 }
 
-.main-introduction  .introduction-title {
+.introduction-title {
 	font-weight: bold;
 	font-size: 21px;
 }
@@ -71,7 +71,7 @@ li {
 	color:#fff;
 }
 
-.features .features-title {
+.features-title {
 	font-size: 21px;
 	font-weight: bold;
 }
@@ -80,12 +80,12 @@ li {
 	background: #eee;
 }
 
-.offer .offer-title {
+.offer-title {
 	font-size: 32px;
 	font-weight: bold;
 }
 
-.offer .offer.search {
+.offer.search {
 	font-size: 21px;
 	font-weight: bold;
 	background: #766357;
