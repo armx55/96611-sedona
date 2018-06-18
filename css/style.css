@@ -81,6 +81,10 @@ a {
 	background: #eee;
 }
 
+.offer {
+  background-color: #ffffff;
+}
+
 .offer-title {
 	font-size: 32px;
 	font-weight: bold;
@@ -157,4 +161,115 @@ a {
 
 .social-list {
   list-style: none;
+}
+
+/*Сетки*/
+
+.main-menu {
+  display: flex;
+  width: 1200px;
+  margin:0 auto;
+  height: 56px;
+  background-color:#ffffff;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list li {
+  width:240px;
+}
+
+.main-content {
+  width: 1200px;
+  margin: 0 auto;
+  border-top: 1px solid transparent;
+}
+
+.main-introduction {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  height: 216px;
+  background-color: #ffffff;
+  justify-content: center;
+}
+
+.main-logo {
+  justify-content: center;
+}
+
+
+.intro {
+  display: flex;
+  margin-top: 78px;
+  justify-content: center;
+}
+
+.descripton {
+  display: flex;
+}
+
+.texts-descripton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.descripton-photo {
+  width: 800px;
+}
+
+.features-list {
+  display: flex;
+  height: 334px;
+  margin:0;
+  padding: 0;
+}
+
+.features-items {
+  width: 400px;
+  text-align: center;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.offer {
+  display: flex;
+  height: 292px;
+  text-align: center;
+  flex-direction: column;
+}
+
+.offer-title {
+  align-items: center;
+}
+
+.main-footer {
+  min-height: 120px;
+  display: flex;
+  width: 1200px;
+  margin:0 auto;
+  justify-content: space-between;
+  padding-top:46px;
+
+}
+
+.footer-hashtag {
+  width: 400px;
+  min-height: 120px;
+  display: flex;
+}
+
+.footer-social {
+  width: 400px;
+  min-height: 120px;
+}
+
+.footer-logo {
+  width: 400px;
+  min-height: 120px;
 }
