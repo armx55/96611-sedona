@@ -10,7 +10,9 @@
   <body>
     <header>
       <nav class="main-menu">
-        <a href="index.html"><img class="main-logo" src="img/logo-sedona.png" width="138" height="70" alt="Лого сайта"></a>
+        <div class="logo-container">
+          <a href="index.html"><img class="main-logo" src="img/logo-sedona.png" width="138" height="70" alt="Лого сайта"></a>
+        </div>
         <ul class="nav-list">
           <li><a class="nav-item" href="index.html">Информация</a></li>
           <li><a class="nav-item" href="#">Фото и видео</a></li>
@@ -41,8 +43,10 @@
         </form>
       </section>
       <section class="search">
-        <span class="search-title">Найдено:3</span>
-        <h2 class="search-classification">Сортировка</h2>
+        <div class="search-order">
+          <div class="search-title">Найдено:3</div>
+          <h2 class="search-classification">Сортировка</h2>
+        </div>
         <ul class="search-list">
           <li class="search-item search-аctive">По цене</li>
           <li class="search-item">По типу</li>
@@ -59,9 +63,11 @@
         <ul class="hotel-content">
           <li class="amara-resort">
             <img class="hotel-image" src="img/amara-resort.jpg" width="135" height="90" alt="Amara resort">
-            <h2 class="hotel-name">Amara Resort & Spa</h2>
-            <span class="hotel">Гостиница</span>
-            <span class="hotel-price">От 4000 Р.</span>
+            <div class="hotel-services">
+              <h2 class="hotel-name">Amara Resort & Spa</h2>
+              <span class="hotel">Гостиница</span>
+              <span class="hotel-price">От 4000 Р.</span>
+            </div>
             <a class="button" href="#">Подробнее</a>
             <a class="button" href="#">Забронировать</a>
             <div class="rate">рейтинг:8,5</div> 
@@ -85,7 +91,6 @@
             <div class="rate">рейтинг:9,2</div> 
           </li>
         </ul>
-        
       </section>
   	</main>  		
     <footer class="main-footer">

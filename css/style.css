@@ -281,3 +281,73 @@ a {
   width: 400px;
   min-height: 120px;
 }
+
+/*Сетки страница каталога*/
+
+.main-content-inner {
+  width:1200px;
+  margin:0 auto;
+}
+
+.choose-checkbox {
+  width: 1200px;
+  height: 218px;
+  display: flex;
+  flex-direction: column;
+}
+
+.search {
+  width: 1200px;
+  height: 86px;
+  display: flex;
+}
+
+.search-order {
+  display: flex;
+  width: 240px;
+  align-items: center;
+  padding-left: 75px;  
+}
+
+.search-title {
+  margin-right: 50px;
+}
+
+.search-list {
+  display: flex;
+  width: 288px;
+  align-items: center;
+}
+
+.search-item:nth-child(1){
+  margin-right: 30px;
+}
+
+.search-item:nth-child(2){
+  margin-right: 35px;
+}
+
+.amara-resort, 
+.desert-quail-inn,
+.villas-poco-diablo {
+  width: 1200px;
+  display: flex;
+  height: 150px;
+  align-items: center;
+}
+
+
+.amara-resort img, 
+.desert-quail-inn img,
+.villas-poco-diablo img {
+  margin-right: 30px;
+  padding-left: 35px;
+}
+
+.hotel-services {
+  width: 215px;
+}
+
+.hotel {
+  margin-right:40px;
+}
