@@ -180,12 +180,13 @@ a {
   justify-content: center;
 }
 
-.nav-list li:nth-child(2n+1) {
-  width:240px;
+.nav-list li:nth-child(2) {
+  margin-right: 240px;
 }
 
-.nav-list li:nth-child(2) {
-  width:490px;
+ .nav-list li {
+  width: 240px; 
+  text-align: center;
 }
 
 .nav-item {
@@ -248,6 +249,10 @@ a {
   text-align: center;
   justify-content: space-between;
   align-self: center;
+}
+
+.features-icons {
+  background-image: url(../img/icon-1.svg);
 }
 
 .offer {
