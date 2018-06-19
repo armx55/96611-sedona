@@ -333,7 +333,6 @@ a {
   width: 1200px;
   display: flex;
   height: 150px;
-  align-items: center;
 }
 
 
@@ -350,4 +349,14 @@ a {
 
 .hotel {
   margin-right:40px;
+}
+
+.hotel-reservation {
+  width: 260px;
+  height: 90px;
+}
+
+.blue-btn {
+  color:#ffffff;
+  background-color:#81b3d2;
 }
