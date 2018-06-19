@@ -171,16 +171,23 @@ a {
   margin:0 auto;
   height: 56px;
   background-color:#ffffff;
+  position: relative;
 }
 
 .nav-list {
   display: flex;
   justify-content: center;
+  padding-left: 73px;
 }
 
-.nav-list li {
+.nav-list li:nth-child(2n+1) {
   width:240px;
 }
+
+.nav-list li:nth-child(2) {
+  width:490px;
+}
+
 
 .main-content {
   width: 1200px;
@@ -197,10 +204,11 @@ a {
   justify-content: center;
 }
 
-.main-logo {
-  justify-content: center;
+.logo-container {
+  position: absolute;
+  top:0;
+  left: 530px;
 }
-
 
 .intro {
   display: flex;
