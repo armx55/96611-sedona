@@ -459,6 +459,11 @@ a {
   margin-bottom: 70px;
 }
 
-.rate {
- flex-grow:1;
+.hotels-price-details {
+  display: flex;
+}
+
+.hotel-name {
+  width: 230px;
+  margin-bottom: 17px;
 }
