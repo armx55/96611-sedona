@@ -376,13 +376,14 @@ a {
   width: 1200px;
   height: 86px;
   display: flex;
+  padding-left: 75px;
+  padding-right: 75px;
 }
 
 .search-order {
   display: flex;
   width: 240px;
-  align-items: center;
-  padding-left: 75px;  
+  align-items: center; 
 }
 
 .search-title {
@@ -393,8 +394,10 @@ a {
   display: flex;
   width: 288px;
   align-items: center;
+  flex-grow: 1;
 }
 
+.arrows-list {padding:0;}
 .search-item:nth-child(1){
   margin-right: 30px;
 }
@@ -409,6 +412,8 @@ a {
   width: 1200px;
   display: flex;
   height: 150px;
+  padding-left:75px;
+  padding-right: 75px;
 }
 
 
@@ -430,6 +435,7 @@ a {
 .hotel-reservation {
   width: 260px;
   height: 90px;
+  flex-grow: 1;
 }
 
 .hotel-details {
