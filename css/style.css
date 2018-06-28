@@ -373,7 +373,7 @@ a {
 }
 
 .search {
-  width: 1200px;
+  width: 1050px;
   height: 86px;
   display: flex;
   padding-left: 75px;
@@ -409,13 +409,12 @@ a {
 .amara-resort, 
 .desert-quail-inn,
 .villas-poco-diablo {
-  width: 1200px;
+  width: 1050px;
   display: flex;
   height: 150px;
   padding-left:75px;
   padding-right: 75px;
 }
-
 
 .amara-resort img, 
 .desert-quail-inn img,
@@ -472,4 +471,77 @@ a {
 .hotel-name {
   width: 230px;
   margin-bottom: 17px;
+}
+
+.filter {
+  margin: 0 auto;
+  padding: 25px;
+  width: 300px;
+  background-color: #eeeeee;
+}
+
+.filter-range-wrapper {
+  margin-bottom: 10px;
+  padding: 39px 18px;
+  border-radius: 3px;
+  background-color: #3f4445;
+}
+
+.filter-range {
+  position: relative;
+}
+
+.filter-range-scale {
+  height: 2px;
+  background-color: #d7dcde;
+}
+
+.filter-range-bar {
+  height: 2px;
+  width: 75%;
+  background-color: #00ca74;
+}
+
+.filter-range-handle {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 4px;
+  box-sizing: content-box;
+  padding: 0;
+  border: 8px solid #ffffff;
+  border-radius: 50%;
+  background-color: #3f4445;
+  cursor: pointer;
+}
+
+.filter-interval {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.filter-interval label {
+  width: 50%;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+.filter-interval label:last-child {
+  text-align: right;
+}
+
+.filter-interval input {
+  margin-left: 8px;
+  width: 80px;
+  height: 38px;
+  border-radius: 2px;
+  border: none;
+  font: inherit;
+  color: inherit;
+  text-align: center;
+  background-color: #3f4445;
 }
