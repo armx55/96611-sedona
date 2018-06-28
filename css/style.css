@@ -366,7 +366,6 @@ a {
 }
 
 .choose-checkbox {
-  height: 218px;
   display: flex;
   padding-left: 73px;
 }
@@ -451,6 +450,10 @@ a {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+}
+
+.choose-form {
+  display: flex;
 }
 
 .choose-housing {
