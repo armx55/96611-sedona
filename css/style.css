@@ -366,7 +366,6 @@ a {
 }
 
 .choose-checkbox {
-  width: 1200px;
   height: 218px;
   display: flex;
   padding-left: 73px;
@@ -448,20 +447,22 @@ a {
 }
 
 .choose-infrastructure {
-  width: 90px;
+  width: 255px;
   display: flex;
   flex-wrap: wrap;
-}
-
-.form-title {
-  margin-left: 325px;
+  flex-direction: column;
 }
 
 .choose-housing {
-  width: 120px;
+  display: flex;
+  width: 255px;
   flex-wrap: wrap;
-  margin-left: 300px;
-  margin-bottom: 70px;
+  flex-direction: column;
+}
+
+.choose-filter {
+  display: flex;
+  flex-grow: 1;
 }
 
 .hotels-price-details {
