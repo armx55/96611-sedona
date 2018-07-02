@@ -468,6 +468,11 @@ a {
   flex-grow: 1;
 }
 
+.choose-button {
+  width: 134px;
+  height: 37px;
+}
+
 .hotels-price-details {
   display: flex;
 }
@@ -481,14 +486,12 @@ a {
   margin: 0 auto;
   padding: 25px;
   width: 300px;
-  background-color: #eeeeee;
 }
 
 .filter-range-wrapper {
   margin-bottom: 10px;
   padding: 39px 18px;
   border-radius: 3px;
-  background-color: #3f4445;
 }
 
 .filter-range {
@@ -525,6 +528,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  border:1px solid #ffffff;
 }
 
 .filter-interval label {
@@ -547,5 +551,5 @@ a {
   font: inherit;
   color: inherit;
   text-align: center;
-  background-color: #3f4445;
+  background-color: transparent;
 }

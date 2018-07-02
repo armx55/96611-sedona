@@ -39,6 +39,10 @@
           <div class="choose-filter">
             <h2 class="form-title">Стоимость в сутки (p):</h2>
             <div class="filter">
+              <div class="filter-interval">
+                <label>От <input type="text" name="min-interval" value="0"></label>
+                <label>До <input type="text" name="max-interval" value="3000"></label>
+              </div>
               <div class="filter-range-wrapper">
                 <div class="filter-range">
                   <div class="filter-range-scale">
@@ -47,10 +51,6 @@
                   <button class="filter-range-handle min"></button>
                   <button class="filter-range-handle max" style="left: 75%;"></button>
                 </div>
-              </div>
-              <div class="filter-interval">
-                <label>От <input type="text" name="min-interval" value="0"></label>
-                <label>До <input type="text" name="max-interval" value="15000"></label>
               </div>
             </div>
             <input class="choose-button" type="submit" name="choose-button" value="Показать">
