@@ -25,11 +25,19 @@
       <section class="choose-checkbox">
         <form class="choose-form" action="https://echo.htmlacademy.ru" method="post">
           <div class="choose-infrastructure">
-            <h2 class="form-title">Инфраструктура:</h2>         
-            <input id="pool" type="checkbox" checked><label for="pool">Бассейн</label>
-            <input id="parking" type="checkbox"><label for="parking">Порковка</label> 
-            <input id="wifi" type="checkbox"><label for="wifi">Wi-fi</label>
-          </div>
+            <h2 class="form-title">Инфраструктура:</h2>
+            <ul>
+              <li>       
+                <input class="filter-checkbox visually-hidden"  id="pool" type="checkbox" checked><label for="pool">Бассейн</label>
+              </li> 
+              <li>
+                <input id="parking" type="checkbox" class="filter-checkbox visually-hidden"><label for="parking">Порковка</label>
+              </li>
+              <li>
+                <input id="wifi" type="checkbox" class="filter-checkbox visually-hidden" disabled><label for="wifi">Wi-fi</label>
+              </li> 
+            </div>
+          </ul> 
           <div class="choose-housing">
             <h2 class="form-title">Тип жилья:</h2>
             <input id="hotel" type="checkbox" checked><label for="hotel">Гостиница</label>
